@@ -17,8 +17,11 @@ const PostSchema = new Schema({
         type:Number 
     },
     price:{
-        type: number
+        type: Number
         },
+    location:{
+        type: String
+    }
     date:{
         type:Date,
         default:Date.now
